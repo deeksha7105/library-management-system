@@ -1,79 +1,97 @@
-# Library Management System
+# Library Management System (LMS)
 
-A simple console-based Library Management System created as part of a Software Project Planning and Management assignment.
+A simple and efficient system for managing library operations.
 
-This project demonstrates:
-- SDLC implementation
-- Task & issue tracking using Jira
-- Documentation using Confluence
-- Version control and collaboration using GitHub
+---
+
+## Project Overview
+
+The Library Management System (LMS) is designed to automate and streamline core library functions such as book handling, member management, issuing and returning books, and fine calculation.
+This repository is part of the **Software Project Planning & Management Assignment** using:
+
+* Confluence → Documentation
+* Jira → Task & issue tracking
+* GitHub → Version control
 
 ---
 
 ## Features
-- Add books
-- Register members
-- Issue books to members
-- Return books
-- Basic book search
-- Extendable and modular code structure
+* Book Management (Add, Update, Delete)
+* Member Registration & Management
+* Search books by title/author
+* Issue / Return / Renew books
+* Fine calculation for late returns
+* View issued books
+* Admin login
+* Basic reporting
 
 ---
 
-## Project Structure
-/library-management-system
-   /src
-      app.py
-      books.py
-      members.py
-      issue_return.py
-README.md
+## System Components
 
-File Descriptions:
-- app.py – Main driver file
-- books.py – Manages all book-related operations
-- members.py – Handles member registration and details
-- issue_return.py – Issues and returns books
+* **Frontend UI** – User interface for all operations
+* **Application Layer** – Business logic for books, members, and transactions
+* **Data Layer** – Handles storage and retrieval of library data
 
 ---
 
-##  Technologies Used
-This project follows the SDLC with:
-- GitHub (version control)
-- Jira (task management)
-- Confluence (documentation)
+## Modules Included
+
+* **Book Management**
+* **Member Management**
+* **Issue & Return System**
+* **Fine Calculation**
+* **Reports & Admin Section**
 
 ---
 
-##  How to Run the Project
-Make sure Python is installed, then run:
- python src/app.py
+## How This Repository Is Used
 
- ---
+This GitHub repository demonstrates:
 
- ##  SDLC Implementation (for assignment)
- This project follows the SDLC with:
- - Requirement Analysis
- - Design
- - Implementation
- - Testing
- - Deployment
- - Documentation
-All SDLC documents are maintained in Confluence, and development tasks are tracked in Jira.
+* Version control usage
+* SDLC documentation alignment
+* Task linking between Jira & GitHub
+* Commit history tracking
+
+> Note: This assignment does **not** require implementation code.
+> The repository contains documentation only.
 
 ---
 
-##  Future Enhancements
-- Login & authentication module
-- Fine calculation system
-- Database integration (MySQL/SQLite)
-- GUI using Tkinter / Web App using Flask
-- Reporting module
+## Suggested Folder Structure
 
-  ---
+```
+/Library-Management-System
+│
+├── README.md          # Project overview (this file)
+├── /docs              # Screenshots, diagrams (optional)
+└── /planning          # Jira exports or notes (optional)
+```
 
-## Academic Purpose
-- Jira + GitHub integration
-- Confluence documentation
-- SDLC workflow understanding
-  
+---
+
+## Testing (High-Level Summary)
+
+* Login validation
+* Add/update/delete operations
+* Issue/return workflows
+* Fine calculation accuracy
+* Performance & usability checks
+
+---
+
+## Conclusion
+
+The Library Management System provides a structured, user-friendly approach to managing library operations. It automates book handling, member tracking, issuing/returning workflows, and fine calculations.
+This project successfully demonstrates the planning, documentation, and management aspects of the SDLC using Jira, Confluence, and GitHub.
+
+---
+
+If you want, I can also create:
+
+📌 **A perfect folder structure for the repo**
+📌 **A short commit message guide**
+📌 **A professional repository description**
+
+Just tell me!
