@@ -86,12 +86,3 @@ This GitHub repository demonstrates:
 The Library Management System provides a structured, user-friendly approach to managing library operations. It automates book handling, member tracking, issuing/returning workflows, and fine calculations.
 This project successfully demonstrates the planning, documentation, and management aspects of the SDLC using Jira, Confluence, and GitHub.
 
----
-
-If you want, I can also create:
-
-📌 **A perfect folder structure for the repo**
-📌 **A short commit message guide**
-📌 **A professional repository description**
-
-Just tell me!
